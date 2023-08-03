@@ -5,7 +5,7 @@ import {withDevTools} from "expo/build/launch/withDevTools";
 
 export default (props) => {
     return (<View
-        style={{flexDirection: 'row', width: '100%', marginLeft: 5, marginTop: 5, marginBottom: 5}}>
+        style={{flexDirection: 'row', width: '100%', backgroundColor:'#fff',marginLeft: 5, marginTop: 5, marginBottom: 5}}>
         <Image
             source={{uri: props.uri}}
             style={{width: 70, height: 70, borderRadius: 20}}/>
