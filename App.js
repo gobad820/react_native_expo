@@ -10,6 +10,8 @@ import FriendList from './src/FriendList';
 import TabBar from "./src/TabBar";
 import MultiProfile from "./src/MultiProfile";
 import BirthdayProfile from "./src/BirthdayProfile";
+import styled from 'styled-components/native'
+
 
 export default function App (){
 
@@ -71,7 +73,7 @@ export default function App (){
                 ItemSeparatorComponent={ItemSeparatorComponent}
                 renderItem={renderItem}
                 ListHeaderComponent={ListHeaderComponent}
-                ListFooterComponent={ListFooterComponent}
+                // ListFooterComponent={ListFooterComponent}
                 showsVerticalScrollIndicator={false}
             />
             <TabBar selectedTabIdx={selectedTabIdx}
