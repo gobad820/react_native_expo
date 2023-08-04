@@ -1,9 +1,16 @@
 import {View} from "react-native";
+import styled from "styled-components/native";
 
-export const Division = (props) => {
+const StyledDivision = styled.View`
+  width: 100%;
+  height: 0.5px;
+  background-color: lightgrey;
+`
+
+// 홑따옴표가 필요가 없다.
+
+export const Division = () => {
     return (
-        <View
-            style={{width:'100%', height: 0.5, backgroundColor: 'grey'}}
-        ></View>
+        <StyledDivision />
     )
 };
